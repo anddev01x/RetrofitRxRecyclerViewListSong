@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         message, ToastPerfect.BOTTOM,
                         ToastPerfect.LENGTH_SHORT).show();
             } else {
+                binding.progressBar.setVisibility(View.GONE);
                 ToastPerfect.makeText(MainActivity.this, ToastPerfect.ERROR,
                         message, ToastPerfect.BOTTOM,
                         ToastPerfect.LENGTH_SHORT).show();
